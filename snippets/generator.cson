@@ -1,0 +1,18 @@
+'.source.js':
+  'Generate React Config':
+    'prefix': 'grc'
+    'body': '{
+      \n  name: \'$1\',
+      \n  subcomponents: [{
+      \n    name: \'\'
+      \n  }]
+      \n}'
+'.source.jsx':
+  'Generate React Config':
+    'prefix': 'grc'
+    'body': '{
+      \n  name: \'$1\',
+      \n  subcomponents: [{
+      \n    name: \'\'
+      \n  }]
+      \n}'

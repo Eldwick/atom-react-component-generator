@@ -1,0 +1,19 @@
+{
+  "name": "react-component-generator",
+  "main": "./lib/react-component-generator",
+  "version": "0.0.1",
+  "description": "Given an object literal as a config, generate the corresponding directories and files with template code.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "react-component-generator:generate"
+  },
+  "repository": "https://github.com/Eldwick/atom-react-component-generator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "loophole": "^1.1.0"
+  }
+}

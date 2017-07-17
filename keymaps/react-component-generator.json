@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-cmd-g": "react-component-generator:generate"
+  }
+}

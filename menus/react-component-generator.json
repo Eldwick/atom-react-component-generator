@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate React Components",
+        "command": "react-component-generator:generate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "React Component Generator",
+          "submenu": [
+            {
+              "label": "Generate",
+              "command": "react-component-generator:generate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
