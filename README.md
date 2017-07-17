@@ -28,9 +28,13 @@ $ apm link
     * imports all subcomponents into parent file
     * if supplied will create a directory for the Parent and export itself using an `index.js `file
 
+## Snippets
+
+Use `grc` then `Tab` to generate a template config object.
+
 ## Sample use:
 
-<img src='https://d3vv6lp55qjaqc.cloudfront.net/items/3y2n3t2A0K2j16311y2E/Screen%20Recording%202017-07-16%20at%2005.04%20PM.gif' />
+<img src='https://i.imgur.com/lJs37gk.gif' />
 
 
 ## Sample config: (run from store_app/components/example)

@@ -3,16 +3,17 @@
     'prefix': 'grc'
     'body': '{
       \n  name: \'$1\',
-      \n  subcomponents: [{
-      \n    name: \'\'
-      \n  }]
+      \n  type: \'$2s\',
+      \n  isCollection: $3false,
+      \n  subcomponents: [$4]
       \n}'
+
 '.source.jsx':
   'Generate React Config':
     'prefix': 'grc'
     'body': '{
       \n  name: \'$1\',
-      \n  subcomponents: [{
-      \n    name: \'\'
-      \n  }]
+      \n  type: \'$2s\',
+      \n  isCollection: $3false,
+      \n  subcomponents: [$4]
       \n}'
