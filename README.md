@@ -1,8 +1,6 @@
-# React Component Generator
-
-## Overview:
-
-Given an object literal as a config, generate the corresponding directories and files with template code.
+React Component Generator [![Build Status](https://travis-ci.org/Eldwick/atom-react-component-generator.svg?branch=master)](https://travis-ci.org/Eldwick/atom-react-component-generator)
+====================================================================================================================================================================
+Easily generate react components and their the corresponding directories and files using configs created from snippets.
 
 ## Installation
 
