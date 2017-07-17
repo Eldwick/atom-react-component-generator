@@ -4,10 +4,15 @@
 
 Given an object literal as a config, generate the corresponding directories and files with template code.
 
-### Available IDE packages:
+## Installation
 
-* Atom
-* Sublime
+```
+$ cd ~/.atom/packages
+$ git clone git@github.com:Eldwick/atom-react-component-generator.git
+$ cd atom-react-component-generator
+$ apm install
+$ apm link
+```
 
 ## Config structure:
 
@@ -25,7 +30,7 @@ Given an object literal as a config, generate the corresponding directories and 
 
 ## Sample use:
 
-[Image: https://d3vv6lp55qjaqc.cloudfront.net/items/3y2n3t2A0K2j16311y2E/Screen%20Recording%202017-07-16%20at%2005.04%20PM.gif]
+<img src='https://d3vv6lp55qjaqc.cloudfront.net/items/3y2n3t2A0K2j16311y2E/Screen%20Recording%202017-07-16%20at%2005.04%20PM.gif' />
 
 
 ## Sample config: (run from store_app/components/example)
