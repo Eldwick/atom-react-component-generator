@@ -6,6 +6,10 @@ Given an object literal as a config, generate the corresponding directories and 
 
 ## Installation
 
+https://atom.io/packages/react-component-generator
+
+or
+
 ```
 $ cd ~/.atom/packages
 $ git clone git@github.com:Eldwick/atom-react-component-generator.git
