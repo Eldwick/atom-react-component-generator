@@ -38,16 +38,6 @@ $ apm link
 
 * '⌘-⌥-^-g' : Use selected config object to generate file.
 
-## Sample use:
-
-* Deeply Nested Components
-
-<img src='https://i.imgur.com/lJs37gk.gif' />
-
-* Sibling Components
-
-<img src='https://d3vv6lp55qjaqc.cloudfront.net/items/2v0O3e1m252o0s0o1X0O/Screen%20Recording%202017-07-16%20at%2006.48%20PM.gif' />
-
 ## Sample config: (run from store_app/components/example)
 
 ```
@@ -85,7 +75,7 @@ $ apm link
 ### GrandParent/GrandParent.module.js.jsx
 
 ```
-import Parent from 'store_app/components/example/GrandParent/Parent'
+import Parent from '/example/GrandParent/Parent'
 
 class GrandParent extends React.PureComponent {
   static propTypes = {
@@ -105,7 +95,7 @@ export default GrandParent
 ### GrandParent/index.js
 
 ```
-import GrandParent from 'store_app/components/example/GrandParent/GrandParent'
+import GrandParent from '/example/GrandParent/GrandParent'
 
 export default GrandParent
 ```
@@ -113,8 +103,8 @@ export default GrandParent
 ### GrandParent/parent/parent.module.js.jsx
 
 ```
-import Child from 'store_app/components/example/GrandParent/Parent/Child'
-import PartOfCollection from 'store_app/components/example/GrandParent/Parent/PartOfCollection'
+import Child from '/example/GrandParent/Parent/Child'
+import PartOfCollection from '/example/GrandParent/Parent/PartOfCollection'
 
 class Parent extends React.PureComponent {
   static propTypes = {
@@ -170,7 +160,7 @@ export default PartOfCollection
 ### GrandParent/parent/index.js
 
 ```
-import Parent from 'store_app/components/example/GrandParent/Parent/Parent'
+import Parent from '/example/GrandParent/Parent/Parent'
 
 export default Parent
 ```
