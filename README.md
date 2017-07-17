@@ -30,12 +30,21 @@ $ apm link
 
 ## Snippets
 
-Use `grc` then `Tab` to generate a template config object.
+* Use `grc` then `Tab` to generate a template config object.
+
+## Keyboard Shortcuts
+
+* '⌘-⌥-^-g' : Use selected config object to generate file.
 
 ## Sample use:
 
+* Deeply Nested Components
+
 <img src='https://i.imgur.com/lJs37gk.gif' />
 
+* Sibling Components
+
+<img src='https://d3vv6lp55qjaqc.cloudfront.net/items/2v0O3e1m252o0s0o1X0O/Screen%20Recording%202017-07-16%20at%2006.48%20PM.gif' />
 
 ## Sample config: (run from store_app/components/example)
 
